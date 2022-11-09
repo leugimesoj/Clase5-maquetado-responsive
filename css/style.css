@@ -111,6 +111,24 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    main{
+        height: auto;
+    }
+    .main__encabezado{
+        width: 100%;
+        height: 20vh;   
+        padding: 5vh 0vh 0vh 5vh;
+        text-align: center;
+        
+    }
+    .main__proyectos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } 
 
 }
 
